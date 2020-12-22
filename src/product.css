@@ -20,6 +20,7 @@
 }
 
 .product__rating {
+  display: flex;
 }
 
 .product__info {
