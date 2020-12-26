@@ -1,0 +1,31 @@
+.checkoutProducts {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+.checkoutProduct__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutProduct__price {
+  display: flex;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__image {
+  height: 150px;
+  object-fit: contain;
+  margin: 0 1rem;
+}
+
+.checkoutProduct__details > button {
+  background: #fac14b;
+  color: #111;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 150px;
+}
